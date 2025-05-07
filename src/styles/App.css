@@ -1,25 +1,14 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.input-field {
+  width: 250px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
 }
 
-.input-field {
-    width: 250px;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s ease-in-out;
-  }
-  
-  .input-field:focus {
-    border-color: rgb(48, 48, 234);
-  }
-  
+.input-field:focus {
+  border-color: rgb(48, 48, 234);
+}
+.btn{
+  color: #28b0e8;  font-size: 16px;
+}
